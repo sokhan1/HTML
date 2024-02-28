@@ -1,0 +1,27 @@
+<!-- Send data through form -->
+<!-- Data user type is transmitted to server -->
+<!-- Use from to activate log in -->
+<!-- GET: Send a request and get information from server -->
+<!-- POST: Send a request and manipulate information in server, for example add, revise, delete, 
+    last get information  -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Send a request!</title>
+    <body>
+        <h1>animals</h1>
+        <form action="exam.php" method="POST"> 
+            <input type="text" placeholder="ID" name="ID">
+            <br>
+            <select name="pet">
+                <option value="dog">dog</option>
+                <option value="cat">cat</option>
+                <option value="bear">bear</option>
+            </select>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </body>
+    </head>
+</html>
